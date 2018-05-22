@@ -1,0 +1,14 @@
+I denna utmaning ska ni via JavaScript نndra styles pه knappar. Dessa ska kِras vid knapptryck.
+
+Color: Denna knapp ska نndra bakgrundsfنrg(valfri) fِr knappen.
+
+Size: Denna knapp ska نndra width(valfri storlek) pه knappen.
+
+Font-size: Denna knapp ska نndra font-size(valfri) pه knappen.
+
+Tips: JS style property
+JavaScript koden ska skrivas i app.js
+
+
+Fِr uppladdning till GitHub vill jag att ni skapar en mapp som ni dِper till Webb-Utmaningar och dنrefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i bهde HTML- och JS-filerna)

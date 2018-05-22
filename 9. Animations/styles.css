@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 50%;
+    height: 100%;
+    margin: 100px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0;
+    animation: textAnimation 0.5s ease-in-out 2s forwards;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.top{
+    top: -10%;
+    left: 50%;
+    animation: top 0.7s ease-in-out forwards;
+
+}
+.right{
+    right: -10%;
+    top: 40%;
+    animation: right 0.7s ease-in-out 0.5s forwards
+}
+.bottom{
+    bottom: -100%;
+    left: 50%;
+    animation: bottom 0.7s ease-in-out 1s forwards;
+}
+.left{
+    left: -10%;
+    top: 40%;
+    animation: left 0.7s ease-in-out 1.5s forwards;
+}
+
+@keyframes top{
+
+    50%{
+        top: 30%;
+        transform: rotate(0);
+    }
+    100%{
+         transform: rotate(135deg);
+         top: 30%;
+    }
+}
+@keyframes right{
+    50%{
+        right: 39%;
+    }
+    100%{
+        right: 39%;
+        transform: rotate(135deg);
+    }
+}
+
+@keyframes bottom{
+    50%{
+        bottom: 38%
+    }
+    100%{
+        bottom: 38%;
+        transform: rotate(135deg);
+    }
+}
+@keyframes left{
+    50%{
+        left: 45%;
+    }
+    100%{
+        left: 45%;
+        transform: rotate(135deg);
+    }
+}
+@keyframes textAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
